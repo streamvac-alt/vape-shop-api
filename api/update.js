@@ -5,7 +5,7 @@ export default async function handler(req, res) {
 
   const { products } = req.body;
   const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
-  const USERNAME = 'streamvac-alt'; // ← ЗАМЕНИ НА СВОЙ GITHUB USERNAME!
+  const USERNAME = 'streamvac-alt'; // ← твой GitHub username
   const REPO = 'vape-shop-data';
 
   if (!GITHUB_TOKEN) {
